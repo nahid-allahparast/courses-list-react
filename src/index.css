@@ -12,3 +12,21 @@ body {
 p {
   text-align: left;
 }
+.badge {
+  border-radius: 10px;
+  padding: 0.2rem 0.7rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+.badge--primary {
+  color: #238636;
+  background-color: rgba(97, 199, 117, 0.658);
+}
+.badge--secondary {
+  background-color: #dfdfdf;
+}
+.badge--danger {
+  color: #e23d3a;
+  background-color: #fd7d7bb4;
+}
