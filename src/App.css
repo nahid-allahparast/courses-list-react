@@ -75,3 +75,21 @@ h1 {
   justify-content: center;
   padding: 1rem;
 }
+@media screen and (max-width: 480px) {
+  .course-item {
+    flex-direction: column;
+  }
+  .course-item__image {
+    text-align: center;
+  }
+  .desc {
+    line-height: 1.5rem;
+  }
+  .course-item__footer {
+    padding-top: 1rem;
+  }
+  .tags {
+    display: flex;
+  }
+  .rate{width: 20%;}
+}
