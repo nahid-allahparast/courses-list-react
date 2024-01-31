@@ -30,7 +30,7 @@ const CourseCardBody = ({ course }) => {
   );
 };
 
-const CourseCardFooter = ({course}) => {
+const CourseCardFooter = ({ course }) => {
   return (
     <div className="course-item__footer">
       <div className="tags">
@@ -48,7 +48,17 @@ const CourseCardFooter = ({course}) => {
             day: "numeric",
           })}
         </div>
-        <span className="badge badge--primary">{course.status}</span>
+        <span
+          className={`badge ${
+            course.status === "Active"
+              ? "badge--primary"
+              : course.status === "Upcoming"
+              ? "badge--danger"
+              : "badge--secondary"
+          }`}
+        >
+          {course.status}
+        </span>
       </div>
       <div></div>
     </div>
