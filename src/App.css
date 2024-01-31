@@ -4,8 +4,9 @@ h1 {
 
 .course-list {
   display: flex;
-  justify-content: center;
-  padding-top: 2rem;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 1rem;
 }
 .course-item {
   display: flex;
@@ -13,6 +14,7 @@ h1 {
   background-color: #ffffff;
   border-radius: 10px;
   padding: 1rem;
+  margin-top: 1rem;
 }
 .course-item__image {
   border-radius: 10px;

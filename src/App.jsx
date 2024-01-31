@@ -1,6 +1,6 @@
 import "./App.css";
 import CourseList from "./components/CourseList";
-// import "./index.css"
+
 
 const App = () => {
   return (
